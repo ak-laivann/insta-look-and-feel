@@ -1,0 +1,23 @@
+
+.content {
+    display: grid;
+    row-gap: 30px;
+    column-gap: 0px;
+    justify-items: center;
+    align-content: center;
+    position: relative;
+    top: 300px;
+    /* left: 250px; */
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows:auto ;
+}
+
+.content img {
+    border: 1px solid gray;
+    height: 290px;
+    width: 79%;
+}
+
+.content img:hover {
+    
+}

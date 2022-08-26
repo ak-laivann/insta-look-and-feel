@@ -1,0 +1,49 @@
+
+.dpicon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 250px;
+}
+
+.vficon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.name{
+    display: flex;
+    position: absolute;
+    left: 525px;
+    top: 100px;
+}
+
+.name {
+    font-size: 35px ;
+}
+
+.options {
+    position: absolute;
+    right: 450px;
+    top: 110px
+}
+
+.options .btn {
+    border: 1px solid whitesmoke;
+} 
+
+.account {
+    display: flex;
+    position: absolute;
+    top: 170px;
+    left: 525px;
+}
+
+.about {
+    position: absolute; 
+    top: 215px;
+    left: 525px;
+}

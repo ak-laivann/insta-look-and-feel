@@ -1,0 +1,48 @@
+
+.container-fluid{
+    margin: 15px auto;
+    background-color: white;
+}
+
+.topbar button{
+    display: flex;
+}
+ 
+.navbar-collapse{
+    height: 50px;
+} 
+
+@font-face {
+    font-family: billabong;
+    src: url('./FontsFree-Net-Billabong.ttf');
+    font-weight: bold;
+}
+
+.appname{
+    font-family: billabong;
+}
+
+.log {
+    position: absolute;
+    right: 21%;
+}
+
+.sign {
+    position: absolute;
+    right: 15%;
+}
+
+.text{
+    position: absolute;
+    left: 15%;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    position: relative;
+    left: 525px;
+    height: 35px;
+    width: 300px;
+}
